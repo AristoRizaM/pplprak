@@ -24,13 +24,6 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        bottomNavigationBar: BottomNavigationBar(
-          items: [
-            BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.currency_exchange), label: "Transaksi"),
-            BottomNavigationBarItem(icon: Icon(Icons.contacts), label: "Kontak")
-          ],
         ),
         body: SingleChildScrollView(
           child: Center(
